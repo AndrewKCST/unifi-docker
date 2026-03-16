@@ -67,7 +67,7 @@ apt-get update
 
 # Pin to 4.4 so we never pull an update (unifi wants < 8.1.0)
 apt-get install -qy --no-install-recommends \
-  mongodb-org-server=4.4.* mongodb-org-shell=4.4.* mongodb-org-mongos=4.4.* mongodb-org-tools=4.4.*
+  mongodb-org-server=4.4.8 mongodb-org-shell=4.4.8 mongodb-org-mongos=4.4.8 mongodb-org-tools=4.4.*
 
 apt-mark hold mongodb-org-server mongodb-org-shell mongodb-org-mongos mongodb-org-tools
 # --- end MongoDB ---
